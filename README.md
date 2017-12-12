@@ -133,6 +133,9 @@ let time = []
 // c(`Current uid: ${process.getuid()}`) // User ID
 // c(process.pid) // Process Id
 // c(process.title) // name of the process
+// Use require('os').cpus().length to get the number of cores you have, creating one thread for each one of them will improve performance
+
+
 
 // I/O
 // c(process.stdout)
