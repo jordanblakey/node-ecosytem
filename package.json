@@ -3,6 +3,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "chalk": "^2.3.0",
     "cli-spinners": "^1.1.0",
     "execa": "^0.8.0",
     "fs": "^0.0.1-security",

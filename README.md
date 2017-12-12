@@ -12,17 +12,25 @@ const util = require('util')
 ### Related Packages
 
 ```js
-const moment = require('moment')
 const bodyParser = require('body-parser')
 const axios = require('axios')
+const fetch = require('node-fetch')
+```
+
+### Utilities
+
+```js
+const moment = require('moment')
 const bunyan = require('bunyan')
+const execa = require('execa')
 ```
 
 ### Fun Packages
 
 ```js
-const cli-spinners = require('ora')
-const cli-spinners = require('cli-spinners')
+const ora = require('ora')
+const cliSpinners = require('cli-spinners')
+const listr = require('listr')
 ```
 
 ## Useful shell commands
