@@ -1,28 +1,73 @@
 # Node Ecosystem
 
-## Relevant Packages
+## Core Packages
 
 ```js
-const stream = require('stream')
-const fs = require('fs')
-const http = require('http')
-const util = require('util')
+const stream = require('stream') // Streams, buffers, pipes
+const fs = require('fs') // File system tools
+const util = require('util') // ???
+const nodemon = require('nodemon') // Process monitoring
+const forever = require('forever') // Resilient processes
 ```
 
-### Related Packages
+### Frameworks
 
 ```js
-const bodyParser = require('body-parser')
-const axios = require('axios')
-const fetch = require('node-fetch')
+const app = require('express') // Web application framework
+const lb = require('loopback') // API creation framework
+```
+
+### Server/Client
+
+```js
+const bodyParser = require('body-parser') // Process forms and other HTTP requests
+const http = require('http') // Basic http requests
+const axios = require('axios') // Client side requests
+const fetch = require('node-fetch') // Client side requests
+const socketio = require('socket-io')
+```
+
+### Templating
+
+```js
+const handlebars = require('handlebars') // Drop in HTML templating. Features.
+const pug = require('pug') // Abbreviated HTML syntax + templating. Performant.
+```
+
+### DB Drivers & ORM
+
+```js
+const postgres = require('pg')
+const sequelize = require('sequelize')
+
+const mongodb = require('mongodb')
+const mongoose = require('mongoose')
+
+const redis = require('ioredis')
+
+```
+
+### Testing/Security
+
+```js
+const jest = require('jest')
+const snyk = require('snyk')
 ```
 
 ### Utilities
 
 ```js
-const moment = require('moment')
-const bunyan = require('bunyan')
-const execa = require('execa')
+const joi = require('joi') // Object schema description language and validator
+const passport = require('pasport') // Simple authentication
+const nodemailer = require('nodemailer') // Simple email handler
+const moment = require('moment') // Timestamp utility
+const bunyan = require('bunyan') // Logger utility
+const execa = require('execa') // Execute shell commands
+const globby = require('globby') // Glob files
+const del = require('del') // Deletion
+const rimraf = require('rimraf') // Recursive deletion
+const cpy = require('cpy') // Copy Files
+const chokidar = require('chokidar') // Filesystem watcher
 ```
 
 ### Fun Packages
