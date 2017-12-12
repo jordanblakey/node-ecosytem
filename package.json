@@ -1,4 +1,6 @@
 {
+  "name": "node-ecosystem",
+  "version": "0.0.1",
   "scripts": {
     "test": "jest"
   },

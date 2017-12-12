@@ -7,7 +7,7 @@ const stream = require('stream') // Streams, buffers, pipes
 const fs = require('fs') // File system tools
 const util = require('util') // ???
 const nodemon = require('nodemon') // Process monitoring
-const forever = require('forever') // Resilient processes
+const pm2 = require('forever') // daemonize, monitor, and keep alive any node app.
 ```
 
 ### Frameworks
