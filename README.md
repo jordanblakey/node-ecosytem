@@ -1,4 +1,29 @@
-# Node Features
+# Node Ecosystem
+
+## Relevant Packages
+
+```js
+const stream = require('stream')
+const fs = require('fs')
+const http = require('http')
+const util = require('util')
+```
+
+### Related Packages
+
+```js
+const moment = require('moment')
+const bodyParser = require('body-parser')
+const axios = require('axios')
+const bunyan = require('bunyan')
+```
+
+### Fun Packages
+
+```js
+const cli-spinners = require('ora')
+const cli-spinners = require('cli-spinners')
+```
 
 ## Useful shell commands
 
